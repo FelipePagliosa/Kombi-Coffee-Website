@@ -1,0 +1,294 @@
+header{
+    background-color: white;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.625em;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+p{
+    font-size: 1em;
+}
+th{
+    font-weight: bold;
+}
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: 'Oxygen', sans-serif;
+}
+ul{
+    padding: 16px; 
+    margin: 0px 0px 18px 0px;
+    background-color:rgb(101,67,33) ;
+}
+hr{
+    border-color: black;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+td{
+    padding: 12px;
+}
+textarea{
+    vertical-align: top;
+}  
+form{
+    background-color: rgb(101,67,33); 
+    border-radius: 12px; 
+    padding: 20px;
+} 
+button{
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(68,28,0);
+    color: white;
+    border: 2px solid rgb(101,67,33);
+    padding: 8px;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+figure{
+    align-content: center;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(101,67,33); 
+    margin-left: 15%; 
+    margin-top: 10px;
+}
+footer{
+    margin-top: 3px;
+}
+iframe{
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+#container{
+    width: 960px;
+    margin:auto;
+    text-align: center;
+}
+#parent {
+    display: flex;
+}
+#divDireita {
+    width: 350px;
+}
+#escolha{
+    display: flex;
+}
+#onde{
+    display: flex;
+}
+#divEsquerda {
+    width: 350px;
+}
+.containerBanner{
+    position: relative;
+    color: white;
+}
+.containerTextoBanner{
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 16%; 
+    left: 8%; 
+    width: 80px; 
+    height: 80px; 
+    background-color: rgba(101,67,33, 0.75); 
+    border-radius: 50%;
+    padding: 30px;
+}
+.containerTextoBannerEvento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%; 
+    height: 50%; 
+    bottom: 25%; 
+    left: 25%; 
+    background-color: rgba(101,67,33, 0.75); 
+    border-radius: 12px;
+    padding: 30px;
+}
+.textoBanner{
+    word-wrap: break-word;
+    font-size: 0.83em; 
+}
+.textoBannerEvento{
+    word-wrap: break-word;
+    font-size: 2em; 
+}
+
+.imgCafe{
+    margin-left: 0px; 
+    margin-top: 50px;
+}
+.imgMapa{
+    margin-left: 20px; 
+    margin-top: 50px;
+    width: 130px;
+    height: 124px;
+}
+.h1Hidden{
+    visibility: hidden;
+}
+.settingsLogo{
+    margin-bottom: 20px;
+}
+.corSlogan{
+    color: rgb(86,28,11);
+}
+.pCite{
+    color: white;
+}
+.h2EspecialIndex{
+    font-size: 2.4em;
+    color:rgb(110, 79, 79);
+    margin: 24px 0px 25px 0px;
+}
+.h3Index{
+    font-size: 1.625em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:rgb(110, 79, 79);
+    margin: 25px 0px 24px -115px;
+    text-align: left;
+}
+.h3IndexEspecial{
+    font-size: 1.625em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:rgb(110, 79, 79);
+    margin: 25px 0px 24px -115px;
+    text-align: left;
+}
+.pIndex{
+    margin-left: 20px; 
+    text-align: left;
+}
+.linkMap{
+    color: maroon !important;
+}
+.h2CardapioEspecial{
+    font-size: 2.5em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.h2Cardapio{
+    font-size: 1.2em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 32px 0px;
+}
+.h2ContatoEspecial{
+    font-size: 2.5em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-weight: bold;  
+}
+.h2Contato{
+    font-size: 1.2em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 32px 0px;
+}
+.h2LocalEspecial{
+    font-size: 2.5em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.pBold{
+    font-weight: bold;
+    color: white;
+}
+.banner{
+    width: 100%;
+    border-radius: 12px;
+}
+.imgCardapio{
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+.h2EventosEspecial{
+    font-size: 2.5em;
+    color:rgb(110, 79, 79);
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.trCor1{
+    background-color:rgb(101,67,33); color: white;
+}
+.trCor2{
+    background-color:rgb(101,67,33);
+}
+.trCor3{
+    background-color: rgb(68,28,0);
+}
+.allignTextoTd{
+    vertical-align: middle;
+}
+.spanTd{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.divForm{
+    margin-bottom: 10px;
+}
+label + input{
+    width: 30%;
+     margin: 0 16% 0 4%;
+}
+label + textarea{
+    width: 30%;
+    margin: 0 12% 0 4%;
+}
+.labelComentario{
+    color: white;
+} 
+.labelNome{
+    margin-left: -0.4%;
+    color: white;
+} 
+.labelEmail{
+    color: white;
+} 
+
+
+ 
+
